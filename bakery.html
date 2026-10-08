@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="made up bakery website for the purpose of learning web development.">
+    <title>Bakery Website</title>
+
+    <!-- CSS-fil containing style. -->
+    <link rel="stylesheet" href=".\css\bakery.css">
+</head>
+
+<body>
+
+    <header class="site-header"> 
+        <!-- Stort bannerbillede -->
+        <img class="header-banner" src="./images/bakery_banner.jpg" alt="Freshly baked bread and cakes">
+
+        <!-- Logo og virksomhedsnavn -->
+        <div class="business-information">
+            <img class="business-logo" src="./images/bakery_logo.jpg" alt="Bjärreds Brödhus logo">
+
+            <div>
+                <h1>Bjärreds Brödhus</h1>
+                <p>Fresh bread baked locally every morning</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-navigation">
+            <nav class="main-navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home-section">
+            <div class="home-content">
+                <!-- Introduction to bakery -->
+                <p class="section-label">Welcome to Bjärreds Brödhus</p>
+
+                <h2>Freshly baked with care every morning</h2>
+
+                <p class="home-description">
+                    We bake sourdough bread, pastries and cakes using carefully
+                    selected ingredients and traditional methods. Visit us in Bjärred
+                    and enjoy something fresh from the oven.
+                </p>
+
+                <!-- Links as buttons -->
+                <div class="home-actions">
+
+                    <a class="primary-button" href="#products">
+                        See our products
+                    </a>
+                    <a class="secondary-button" href="#contact">
+                        Find the bakery
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Tre korte grunde til at vælge bageriet -->
+            <div class="home-highlights">
+                <article class="highlight">
+                    <h3>Baked daily</h3>
+                    <p>Fresh bread and pastries from our ovens every morning.</p>
+                </article>
+
+                <article class="highlight">
+                    <h3>Quality ingredients</h3>
+                    <p>Carefully selected ingredients with focus on taste and quality.</p>
+                </article>
+
+                <article class="highlight">
+                    <h3>Local bakery</h3>
+                    <p>A welcoming neighbourhood bakery in the heart of Bjärred.</p>
+                </article>
+            </div>
+        </section>
+
+
+
+<!-- home section -->
+
+<section id="about" class="about-section">
+    <div class="about-content">
+        <p class="section-label">Our story</p>
+        <h2>About Bjärreds Brödhus</h2>
+
+        <p>
+            Bjärreds Brödhus is a local bakery with a passion for
+            traditional baking. We make our bread, pastries and cakes
+            from carefully selected ingredients.
+        </p>
+
+        <p>
+            Our dough is prepared with time and care, and everything
+            is baked fresh for our customers each morning.
+        </p>
+    </div>
+</section>
+
+
+
+
+
+        <!-- the products section -->
+
+        <section id="products" class="products-section">
+            <div class="section-heading">
+                <p class="section-label">From our bakery</p>
+                <h2>Our products</h2>
+                <p>
+                    Explore a small selection of our freshly baked bread,
+                    pastries and cakes.
+                </p>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="./images/bread.jpg" alt="Freshly baked sourdough bread">
+
+                    <div class="product-information">
+                        <h3>Sourdough Bread</h3>
+                        <p>
+                            A rustic loaf with a crisp crust and a soft,
+                            flavourful centre.
+                        </p>
+                        <p class="product-price">55 SEK</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="./images/cinnamon-bun.jpg" alt="Swedish cinnamon bun">
+
+                    <div class="product-information">
+                        <h3>Cinnamon Bun</h3>
+                        <p>
+                            A soft bun filled with cinnamon, butter and
+                            a touch of cardamom.
+                        </p>
+                        <p class="product-price">32 SEK</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="./images/chocolate-cake.jpg" alt="Slice of chocolate cake">
+
+                    <div class="product-information">
+                        <h3>Chocolate Cake</h3>
+                        <p>
+                            A rich chocolate cake with a smooth chocolate
+                            ganache.
+                        </p>
+                        <p class="product-price">48 SEK</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+        <!-- gallary section -->
+
+        <section id="gallery" class="gallery-section">
+            <div class="section-heading">
+                <p class="section-label">Inside the bakery</p>
+                <h2>Gallery</h2>
+                <p>
+                    Take a look at our bakery, our baking process and some
+                    of the products we make every day.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="./images/bread-display.jpg" alt="Fresh bread displayed in the bakery">
+                    <figcaption>Fresh from the oven</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="./images/baker-working.jpg" alt="Baker preparing bread dough">
+                    <figcaption>Traditional craftsmanship</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/pastries.jpg" alt="Selection of freshly baked pastries">
+                    <figcaption>Pastries baked daily</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="./images/bakery-interior.jpg" alt="Interior of Bjärreds Brödhus">
+                    <figcaption>Our bakery in Bjärred</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="./images/cake-selection.jpg" alt="Selection of cakes in the bakery">
+                    <figcaption>Cakes for every occasion</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/coffee-and-bun.jpg" alt="Cup of coffee served with a cinnamon bun">
+                    <figcaption>Coffee and something sweet</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- contact section  -->
+
+
+
+
+        <section id="contact" class="contact-section">
+            <div class="section-heading">
+                <p class="section-label">Visit us</p>
+                <h2>Contact</h2>
+                <p>
+                    Visit us in Bjärred for freshly baked bread, pastries
+                    and cakes, or contact us if you have any questions.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-information">
+                    <h3>Bjärreds Brödhus</h3>
+
+                    <address>
+                        <p>
+                            <strong>Address</strong><br>
+                            Centrumvägen 12<br>
+                            237 31 Bjärred
+                        </p>
+
+                        <p>
+                            <strong>Telephone</strong><br>
+                            <a href="tel:+46461234567">+46 46 123 45 67</a>
+                        </p>
+
+                        <p>
+                            <strong>Email</strong><br>
+                            <a href="mailto:hello@bjarredsbrodhus.se">
+                                hello@bjarredsbrodhus.se
+                            </a>
+                        </p>
+                    </address>
+                </div>
+
+                <div class="opening-hours">
+                    <h3>Opening hours</h3>
+
+                    <dl class="hours-list">
+                        <div>
+                            <dt>Monday–Friday</dt>
+                            <dd>07:00–18:00</dd>
+                        </div>
+
+                        <div>
+                            <dt>Saturday</dt>
+                            <dd>08:00–16:00</dd>
+                        </div>
+
+                        <div>
+                            <dt>Sunday</dt>
+                            <dd>08:00–14:00</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+<!-- FOOTER     -->
+<footer class="site-footer">          
+    <div class="footer-content">
+        <div class="footer-business">
+            <h2>Bjärreds Brödhus</h2>
+            <p>Freshly baked with care every morning.</p>
+        </div>
+
+        <div class="footer-contact">
+            <p>Centrumvägen 12, 237 31 Bjärred</p>
+
+            <p>
+                <a href="tel:+46461234567">+46 46 123 45 67</a>
+            </p>
+
+            <p>
+                <a href="mailto:hello@bjarredsbrodhus.se">
+                    hello@bjarredsbrodhus.se
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Bjärreds Brödhus. All rights reserved.</p>
+
+        <a href="#home">Back to top</a>
+    </div>
+</footer>
+
+<script src="js/bakery.js"></script>
+
+
+</body>
+
+</html>
